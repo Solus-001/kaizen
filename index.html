@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-theme="sakura">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kaizen — South Africa's premium study resource hub for Grades 10–12. Past papers, study guides, CAPS resources, and more — organized, searchable, and free." />
+    <meta name="theme-color" content="#E85D8A" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Kaizen" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Kaizen — CAPS Study Hub" />
+    <meta property="og:description" content="South Africa's premium study resource hub for high school students. Past papers, study guides, and more." />
+    <meta property="og:locale" content="en_ZA" />
+    <meta property="og:site_name" content="Kaizen" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kaizen — CAPS Study Hub" />
+    <meta name="twitter:description" content="South Africa's premium study resource hub for high school students." />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <title>Kaizen — CAPS Study Hub</title>
+    <!-- FOUC Prevention: apply saved theme before paint -->
+    <script>
+      (function() {
+        var t = localStorage.getItem('kaizen-theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

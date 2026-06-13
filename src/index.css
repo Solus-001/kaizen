@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════
+   KAIZEN — Theme System
+   8 themes, each with 12 design tokens
+   Switched via data-theme attribute on <html>
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Sakura (Default) ── */
+[data-theme="sakura"],
+:root {
+  --bg-base: #FFF5F7;
+  --bg-surface: #FFFFFF;
+  --bg-surface-hover: #FFF0F3;
+  --text-primary: #2D1F2B;
+  --text-secondary: #6B5C6A;
+  --accent: #E85D8A;
+  --accent-hover: #D44A76;
+  --accent-muted: #F8D0DF;
+  --border: #F0D4DE;
+  --border-focus: #E85D8A;
+  --shadow-color: #E85D8A1A;
+  --gradient-start: #E85D8A;
+  --gradient-end: #F472B6;
+}
+
+/* ── Indigo Night ── */
+[data-theme="indigo-night"] {
+  --bg-base: #0F0D1A;
+  --bg-surface: #1A1726;
+  --bg-surface-hover: #231F33;
+  --text-primary: #E8E4F0;
+  --text-secondary: #9B93B0;
+  --accent: #8B5CF6;
+  --accent-hover: #7C3AED;
+  --accent-muted: #2D2545;
+  --border: #2D2545;
+  --border-focus: #8B5CF6;
+  --shadow-color: #8B5CF61A;
+  --gradient-start: #8B5CF6;
+  --gradient-end: #6366F1;
+}
+
+/* ── Sunset ── */
+[data-theme="sunset"] {
+  --bg-base: #FFF8F0;
+  --bg-surface: #FFFFFF;
+  --bg-surface-hover: #FFF3E8;
+  --text-primary: #2D1F10;
+  --text-secondary: #6B5C4A;
+  --accent: #F97316;
+  --accent-hover: #EA580C;
+  --accent-muted: #FED7AA;
+  --border: #FDE68A;
+  --border-focus: #F97316;
+  --shadow-color: #F973161A;
+  --gradient-start: #F97316;
+  --gradient-end: #EF4444;
+}
+
+/* ── Forest ── */
+[data-theme="forest"] {
+  --bg-base: #F0FDF4;
+  --bg-surface: #FFFFFF;
+  --bg-surface-hover: #ECFDF5;
+  --text-primary: #1A2E1A;
+  --text-secondary: #4A6B4A;
+  --accent: #16A34A;
+  --accent-hover: #15803D;
+  --accent-muted: #BBF7D0;
+  --border: #BBF7D0;
+  --border-focus: #16A34A;
+  --shadow-color: #16A34A1A;
+  --gradient-start: #16A34A;
+  --gradient-end: #22D3EE;
+}
+
+/* ── Ocean ── */
+[data-theme="ocean"] {
+  --bg-base: #F0F9FF;
+  --bg-surface: #FFFFFF;
+  --bg-surface-hover: #E0F2FE;
+  --text-primary: #0C1929;
+  --text-secondary: #4A6B8A;
+  --accent: #0EA5E9;
+  --accent-hover: #0284C7;
+  --accent-muted: #BAE6FD;
+  --border: #BAE6FD;
+  --border-focus: #0EA5E9;
+  --shadow-color: #0EA5E91A;
+  --gradient-start: #0EA5E9;
+  --gradient-end: #8B5CF6;
+}
+
+/* ── Kanagawa ── */
+[data-theme="kanagawa"] {
+  --bg-base: #1F1F28;
+  --bg-surface: #2A2A37;
+  --bg-surface-hover: #34344A;
+  --text-primary: #DCD7BA;
+  --text-secondary: #9E9B72;
+  --accent: #7FB4CA;
+  --accent-hover: #6FA8C0;
+  --accent-muted: #2D4152;
+  --border: #34344A;
+  --border-focus: #7FB4CA;
+  --shadow-color: #1277917A;
+  --gradient-start: #7FB4CA;
+  --gradient-end: #C8A0E3;
+}
+
+/* ── Gruvbox ── */
+[data-theme="gruvbox"] {
+  --bg-base: #282828;
+  --bg-surface: #3C3836;
+  --bg-surface-hover: #504945;
+  --text-primary: #EBDBB2;
+  --text-secondary: #928374;
+  --accent: #FE8019;
+  --accent-hover: #D65D0E;
+  --accent-muted: #3C3836;
+  --border: #504945;
+  --border-focus: #FE8019;
+  --shadow-color: #FE801933;
+  --gradient-start: #FE8019;
+  --gradient-end: #FABD2F;
+}
+
+/* ── Everforest ── */
+[data-theme="everforest"] {
+  --bg-base: #2D353B;
+  --bg-surface: #343F44;
+  --bg-surface-hover: #425047;
+  --text-primary: #D3C6AA;
+  --text-secondary: #859289;
+  --accent: #A7C080;
+  --accent-hover: #93B176;
+  --accent-muted: #343F44;
+  --border: #425047;
+  --border-focus: #A7C080;
+  --shadow-color: #A7C08033;
+  --gradient-start: #A7C080;
+  --gradient-end: #83C092;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Global Styles
+   ═══════════════════════════════════════════════════════ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Print-friendly styles
+   ═══════════════════════════════════════════════════════ */
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+
+  header, footer, nav, .scroll-to-top, .offline-indicator,
+  button, [role="button"], .no-print {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  a {
+    color: black !important;
+    text-decoration: underline !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666 !important;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: "";
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  .rounded-2xl, .rounded-xl, .rounded-lg, .rounded-full {
+    border-radius: 0 !important;
+  }
+}
