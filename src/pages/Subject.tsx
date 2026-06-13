@@ -199,7 +199,7 @@ export default function SubjectPage() {
 function ResourceItem({ item }: { item: any }) {
   const isVideo = item.type === 'video' && item.metadata?.videoId
   const isPaper = item.type === 'past-papers' && item.subjectId
-  const sourceLabel = SOURCE_LABELS[item.source] || item.source || 'External'
+  const sourceLabel = item.sourceName || SOURCE_LABELS[item.source] || item.source || 'External'
 
   if (isVideo) {
     return (
