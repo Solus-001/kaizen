@@ -14944,12 +14944,40 @@
       ]
     },
     {
+      "id": "phys-physics-mtgap-12",
+      "type": "study-guide",
+      "title": "Mind the Gap Physics Grade 12",
+      "source": "mind-the-gap",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Physics%20Gr%2012%20Web.pdf?ver=2015-02-25-204844-000",
+      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences — Physics section",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": ["12"],
+      "subjectIds": ["physical-sciences"]
+    },
+    {
+      "id": "phys-chemistry-mtgap-12",
+      "type": "study-guide",
+      "title": "Mind the Gap Chemistry Grade 12",
+      "source": "mind-the-gap",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Chemistry%20Gr%2012%20Web.pdf?ver=2015-02-25-205604-000",
+      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences — Chemistry section",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": ["12"],
+      "subjectIds": ["physical-sciences"]
+    },
+    {
       "id": "phys-sci-caps-doc",
       "type": "caps-doc",
       "title": "Physical Sciences CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Physical Sciences Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Physical Sciences Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -14968,7 +14996,7 @@
       "type": "textbook",
       "title": "Siyavula Physical Sciences Grade 12",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/grade-12/physical-sciences",
+      "url": "https://www.siyavula.com/read/za/physical-sciences/grade-12",
       "description": "Free open-textbook for Grade 12 Physical Sciences",
       "metadata": {
         "language": "en",
@@ -15012,26 +15040,6 @@
       },
       "gradeRelevance": [
         "10"
-      ],
-      "subjectIds": [
-        "physical-sciences"
-      ]
-    },
-    {
-      "id": "phys-sci-mtgap-12",
-      "type": "study-guide",
-      "title": "Mind the Gap Physical Sciences",
-      "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
-      "description": "DBE study guide for Grade 12 Physical Sciences",
-      "metadata": {
-        "year": 2023,
-        "language": "en",
-        "format": "pdf",
-        "fileSize": "5.1 MB"
-      },
-      "gradeRelevance": [
-        "12"
       ],
       "subjectIds": [
         "physical-sciences"
