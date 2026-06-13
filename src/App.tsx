@@ -12,6 +12,7 @@ const Browse = lazy(() => import('./pages/Browse'))
 const PaperDetail = lazy(() => import('./pages/PaperDetail'))
 const About = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact'))
+const Notes = lazy(() => import('./pages/Notes'))
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/browse" element={<Browse />} />
             <Route path="/browse/:id" element={<PaperDetail />} />
+            <Route path="/notes" element={<Notes />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Route>
