@@ -14814,7 +14814,7 @@
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 12",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/za/mathematics/grade-12",
+      "url": "https://www.siyavula.com/read/za/grade-12/mathematics",
       "description": "Free open-textbook covering all Grade 12 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -14832,7 +14832,7 @@
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 11",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/za/mathematics/grade-11",
+      "url": "https://www.siyavula.com/read/za/grade-11/mathematics",
       "description": "Free open-textbook covering all Grade 11 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -14850,7 +14850,7 @@
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 10",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/za/mathematics/grade-10",
+      "url": "https://www.siyavula.com/read/za/grade-10/mathematics",
       "description": "Free open-textbook covering all Grade 10 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -14868,13 +14868,13 @@
       "type": "study-guide",
       "title": "Mind the Gap Mathematics",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Mathematics%20Gr%2012%20Web.pdf",
       "description": "DBE study guide for Grade 12 Mathematics \u2014 exam preparation",
       "metadata": {
         "year": 2023,
         "language": "en",
         "format": "pdf",
-        "fileSize": "4.2 MB"
+        "fileSize": "29.68 MB"
       },
       "gradeRelevance": [
         "12"
@@ -14926,31 +14926,14 @@
     {
       "id": "phys-physics-mtgap-12",
       "type": "study-guide",
-      "title": "Mind the Gap Physics Grade 12",
+      "title": "Mind the Gap Physical Sciences: Physics",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Physics%20Gr%2012%20Web.pdf?ver=2015-02-25-204844-000",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Physics%20Gr%2012%20Web.pdf",
       "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences \u2014 Physics section",
       "metadata": {
         "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "12"
-      ],
-      "subjectIds": [
-        "physical-sciences"
-      ]
-    },
-    {
-      "id": "phys-chemistry-mtgap-12",
-      "type": "study-guide",
-      "title": "Mind the Gap Chemistry Grade 12",
-      "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Chemistry%20Gr%2012%20Web.pdf?ver=2015-02-25-205604-000",
-      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences \u2014 Chemistry section",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
+        "format": "pdf",
+        "fileSize": "14.86 MB"
       },
       "gradeRelevance": [
         "12"
@@ -15038,13 +15021,13 @@
       "type": "study-guide",
       "title": "Mind the Gap Life Sciences",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Life%20Sciences%20Gr%2012%20Web.pdf",
       "description": "DBE study guide for Grade 12 Life Sciences",
       "metadata": {
         "year": 2023,
         "language": "en",
         "format": "pdf",
-        "fileSize": "3.8 MB"
+        "fileSize": "9.47 MB"
       },
       "gradeRelevance": [
         "12"
@@ -15078,13 +15061,13 @@
       "type": "study-guide",
       "title": "Mind the Gap English Home Language",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20English%20HL%20Gr%2012%20Web.pdf",
       "description": "DBE study guide for Grade 12 English Home Language",
       "metadata": {
         "year": 2023,
         "language": "en",
         "format": "pdf",
-        "fileSize": "3.5 MB"
+        "fileSize": "11.82 MB"
       },
       "gradeRelevance": [
         "12"
@@ -15098,13 +15081,13 @@
       "type": "study-guide",
       "title": "Mind the Gap Accounting",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Accounting%20Gr%2012%20Web.pdf",
       "description": "DBE study guide for Grade 12 Accounting",
       "metadata": {
         "year": 2023,
         "language": "en",
         "format": "pdf",
-        "fileSize": "4.0 MB"
+        "fileSize": "12.39 MB"
       },
       "gradeRelevance": [
         "12"
@@ -15141,6 +15124,26 @@
       "metadata": {
         "language": "en",
         "format": "web"
+      },
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "physical-sciences"
+      ]
+    },
+    {
+      "id": "phys-sci-mtgap-chemistry",
+      "type": "study-guide",
+      "title": "Mind the Gap Physical Sciences: Chemistry",
+      "source": "mind-the-gap",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Chemistry%20Gr%2012%20Web.pdf",
+      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences (Chemistry)",
+      "metadata": {
+        "year": 2023,
+        "language": "en",
+        "format": "pdf",
+        "fileSize": "24.45 MB"
       },
       "gradeRelevance": [
         "12"
