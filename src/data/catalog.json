@@ -14949,13 +14949,17 @@
       "title": "Mind the Gap Physics Grade 12",
       "source": "mind-the-gap",
       "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Physics%20Gr%2012%20Web.pdf?ver=2015-02-25-204844-000",
-      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences — Physics section",
+      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences \u2014 Physics section",
       "metadata": {
         "language": "en",
         "format": "pdf"
       },
-      "gradeRelevance": ["12"],
-      "subjectIds": ["physical-sciences"]
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "physical-sciences"
+      ]
     },
     {
       "id": "phys-chemistry-mtgap-12",
@@ -14963,28 +14967,12 @@
       "title": "Mind the Gap Chemistry Grade 12",
       "source": "mind-the-gap",
       "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Chemistry%20Gr%2012%20Web.pdf?ver=2015-02-25-205604-000",
-      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences — Chemistry section",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": ["12"],
-      "subjectIds": ["physical-sciences"]
-    },
-    {
-      "id": "phys-sci-caps-doc",
-      "type": "caps-doc",
-      "title": "Physical Sciences CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Physical Sciences Grades 10–12",
+      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences \u2014 Chemistry section",
       "metadata": {
         "language": "en",
         "format": "pdf"
       },
       "gradeRelevance": [
-        "10",
-        "11",
         "12"
       ],
       "subjectIds": [
@@ -14997,7 +14985,7 @@
       "title": "Siyavula Physical Sciences Grade 12",
       "source": "siyavula",
       "url": "https://www.siyavula.com/read/za/physical-sciences/grade-12",
-      "description": "Free open-textbook for Grade 12 Physical Sciences",
+      "description": "Free open-textbook for Grade 12 Physical Sciences \u2014 Siyavula",
       "metadata": {
         "language": "en",
         "format": "web"
