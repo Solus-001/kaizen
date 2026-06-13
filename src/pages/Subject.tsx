@@ -200,6 +200,7 @@ function ResourceItem({ item }: { item: any }) {
   const isVideo = item.type === 'video' && item.metadata?.videoId
   const isPaper = item.type === 'past-papers' && item.subjectId
   const sourceLabel = item.sourceName || SOURCE_LABELS[item.source] || item.source || 'External'
+  const linkUrl = item.url || item.sourceUrl || '#'
 
   if (isVideo) {
     return (
@@ -225,7 +226,7 @@ function ResourceItem({ item }: { item: any }) {
 
   return (
     <a
-      href={item.url}
+      href={linkUrl}
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center gap-3 p-3 rounded-xl border transition-all hover:shadow-sm no-underline group"
