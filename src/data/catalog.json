@@ -14810,31 +14810,11 @@
   ],
   "resources": [
     {
-      "id": "math-caps-doc",
-      "type": "caps-doc",
-      "title": "Mathematics CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Mathematics Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "mathematics"
-      ]
-    },
-    {
       "id": "math-siyavula-12",
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 12",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/grade-12/mathematics",
+      "url": "https://www.siyavula.com/read/za/mathematics/grade-12",
       "description": "Free open-textbook covering all Grade 12 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -14852,7 +14832,7 @@
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 11",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/grade-11/mathematics",
+      "url": "https://www.siyavula.com/read/za/mathematics/grade-11",
       "description": "Free open-textbook covering all Grade 11 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -14870,7 +14850,7 @@
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 10",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/grade-10/mathematics",
+      "url": "https://www.siyavula.com/read/za/mathematics/grade-10",
       "description": "Free open-textbook covering all Grade 10 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -15002,7 +14982,7 @@
       "type": "textbook",
       "title": "Siyavula Physical Sciences Grade 11",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/grade-11/physical-sciences",
+      "url": "https://www.siyavula.com/read/za/physical-sciences/grade-11",
       "description": "Free open-textbook for Grade 11 Physical Sciences",
       "metadata": {
         "language": "en",
@@ -15020,7 +15000,7 @@
       "type": "textbook",
       "title": "Siyavula Physical Sciences Grade 10",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/grade-10/physical-sciences",
+      "url": "https://www.siyavula.com/read/za/physical-sciences/grade-10",
       "description": "Free open-textbook for Grade 10 Physical Sciences",
       "metadata": {
         "language": "en",
@@ -15051,26 +15031,6 @@
       ],
       "subjectIds": [
         "physical-sciences"
-      ]
-    },
-    {
-      "id": "life-sci-caps-doc",
-      "type": "caps-doc",
-      "title": "Life Sciences CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Life Sciences Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "life-sciences"
       ]
     },
     {
@@ -15114,26 +15074,6 @@
       ]
     },
     {
-      "id": "eng-home-caps-doc",
-      "type": "caps-doc",
-      "title": "English Home Language CAPS Document",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for English Home Language",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "english-home"
-      ]
-    },
-    {
       "id": "eng-home-mtgap-12",
       "type": "study-guide",
       "title": "Mind the Gap English Home Language",
@@ -15154,26 +15094,6 @@
       ]
     },
     {
-      "id": "accounting-caps-doc",
-      "type": "caps-doc",
-      "title": "Accounting CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Accounting Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "accounting"
-      ]
-    },
-    {
       "id": "accounting-mtgap-12",
       "type": "study-guide",
       "title": "Mind the Gap Accounting",
@@ -15191,226 +15111,6 @@
       ],
       "subjectIds": [
         "accounting"
-      ]
-    },
-    {
-      "id": "geography-caps-doc",
-      "type": "caps-doc",
-      "title": "Geography CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Geography Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "geography"
-      ]
-    },
-    {
-      "id": "history-caps-doc",
-      "type": "caps-doc",
-      "title": "History CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for History Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "history"
-      ]
-    },
-    {
-      "id": "economics-caps-doc",
-      "type": "caps-doc",
-      "title": "Economics CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Economics Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "economics"
-      ]
-    },
-    {
-      "id": "business-studies-caps-doc",
-      "type": "caps-doc",
-      "title": "Business Studies CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Business Studies Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "business-studies"
-      ]
-    },
-    {
-      "id": "maths-lit-caps-doc",
-      "type": "caps-doc",
-      "title": "Mathematical Literacy CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Mathematical Literacy Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "maths-lit"
-      ]
-    },
-    {
-      "id": "eng-fal-caps-doc",
-      "type": "caps-doc",
-      "title": "English FAL CAPS Document",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for English First Additional Language",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "english-fal"
-      ]
-    },
-    {
-      "id": "afrikaans-fal-caps-doc",
-      "type": "caps-doc",
-      "title": "Afrikaans FAL CAPS Document",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Afrikaans First Additional Language",
-      "metadata": {
-        "language": "af",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "afrikaans-fal"
-      ]
-    },
-    {
-      "id": "cat-caps-doc",
-      "type": "caps-doc",
-      "title": "CAT CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Computer Applications Technology",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "cat"
-      ]
-    },
-    {
-      "id": "it-caps-doc",
-      "type": "caps-doc",
-      "title": "IT CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Information Technology",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "it"
-      ]
-    },
-    {
-      "id": "tourism-caps-doc",
-      "type": "caps-doc",
-      "title": "Tourism CAPS Document (FET)",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Tourism Grades 10\u201312",
-      "metadata": {
-        "language": "en",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "tourism"
-      ]
-    },
-    {
-      "id": "isizulu-fal-caps-doc",
-      "type": "caps-doc",
-      "title": "isiZulu FAL CAPS Document",
-      "source": "dbe",
-      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for isiZulu First Additional Language",
-      "metadata": {
-        "language": "zu",
-        "format": "pdf"
-      },
-      "gradeRelevance": [
-        "10",
-        "11",
-        "12"
-      ],
-      "subjectIds": [
-        "isizulu-fal"
       ]
     },
     {
