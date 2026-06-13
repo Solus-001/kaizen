@@ -14810,11 +14810,31 @@
   ],
   "resources": [
     {
+      "id": "math-caps-doc",
+      "type": "caps-doc",
+      "title": "Mathematics CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Mathematics Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "mathematics"
+      ]
+    },
+    {
       "id": "math-siyavula-12",
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 12",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/za/grade-12/mathematics",
+      "url": "https://www.siyavula.com/read/za/mathematics/grade-12",
       "description": "Free open-textbook covering all Grade 12 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -14832,7 +14852,7 @@
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 11",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/za/grade-11/mathematics",
+      "url": "https://www.siyavula.com/read/za/mathematics/grade-11",
       "description": "Free open-textbook covering all Grade 11 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -14850,7 +14870,7 @@
       "type": "textbook",
       "title": "Siyavula Mathematics Grade 10",
       "source": "siyavula",
-      "url": "https://www.siyavula.com/read/za/grade-10/mathematics",
+      "url": "https://www.siyavula.com/read/za/mathematics/grade-10",
       "description": "Free open-textbook covering all Grade 10 Mathematics topics",
       "metadata": {
         "language": "en",
@@ -14868,13 +14888,13 @@
       "type": "study-guide",
       "title": "Mind the Gap Mathematics",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Mathematics%20Gr%2012%20Web.pdf",
+      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
       "description": "DBE study guide for Grade 12 Mathematics \u2014 exam preparation",
       "metadata": {
         "year": 2023,
         "language": "en",
         "format": "pdf",
-        "fileSize": "29.68 MB"
+        "fileSize": "4.2 MB"
       },
       "gradeRelevance": [
         "12"
@@ -14924,19 +14944,37 @@
       ]
     },
     {
-      "id": "phys-physics-mtgap-12",
-      "type": "study-guide",
-      "title": "Mind the Gap Physical Sciences: Physics",
-      "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Physics%20Gr%2012%20Web.pdf",
-      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences \u2014 Physics section",
+      "id": "maths-quiz-gizmo",
+      "type": "quiz",
+      "title": "Mathematics Flashcards on Gizmo",
+      "source": "gizmo",
+      "url": "https://gizmo.ai",
+      "description": "AI-generated flashcards for Grade 12 Mathematics",
       "metadata": {
         "language": "en",
-        "format": "pdf",
-        "fileSize": "14.86 MB"
+        "format": "web"
       },
       "gradeRelevance": [
         "12"
+      ],
+      "subjectIds": [
+        "mathematics"
+      ]
+    },
+    {
+      "id": "phys-sci-caps-doc",
+      "type": "caps-doc",
+      "title": "Physical Sciences CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Physical Sciences Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11"
       ],
       "subjectIds": [
         "physical-sciences"
@@ -14948,7 +14986,7 @@
       "title": "Siyavula Physical Sciences Grade 12",
       "source": "siyavula",
       "url": "https://www.siyavula.com/read/za/physical-sciences/grade-12",
-      "description": "Free open-textbook for Grade 12 Physical Sciences \u2014 Siyavula",
+      "description": "Free open-textbook for Grade 12 Physical Sciences",
       "metadata": {
         "language": "en",
         "format": "web"
@@ -14997,6 +15035,46 @@
       ]
     },
     {
+      "id": "phys-sci-mtgap-physics-12",
+      "type": "study-guide",
+      "title": "Mind the Gap Physics Grade 12",
+      "source": "mind-the-gap",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Physics%20Gr%2012%20Web.pdf?ver=2015-02-25-204844-000",
+      "description": "DBE study guide for Grade 12 Physical Sciences \u2014 Physics section",
+      "metadata": {
+        "year": 2023,
+        "language": "en",
+        "format": "pdf",
+        "fileSize": "5.1 MB"
+      },
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "physical-sciences"
+      ]
+    },
+    {
+      "id": "phys-sci-mtgap-chem-12",
+      "type": "study-guide",
+      "title": "Mind the Gap Chemistry Grade 12",
+      "source": "mind-the-gap",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Chemistry%20Gr%2012%20Web.pdf?ver=2015-02-25-205604-000",
+      "description": "DBE study guide for Grade 12 Physical Sciences \u2014 Chemistry section",
+      "metadata": {
+        "year": 2023,
+        "language": "en",
+        "format": "pdf",
+        "fileSize": "5.1 MB"
+      },
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "physical-sciences"
+      ]
+    },
+    {
       "id": "phys-sci-video-newton",
       "type": "video",
       "title": "Newton's Laws of Motion \u2014 Grade 12",
@@ -15017,17 +15095,109 @@
       ]
     },
     {
+      "id": "phys-sci-quiz-gizmo",
+      "type": "quiz",
+      "title": "Physical Sciences Flashcards on Gizmo",
+      "source": "gizmo",
+      "url": "https://gizmo.ai",
+      "description": "AI-generated flashcards for Grade 12 Physical Sciences",
+      "metadata": {
+        "language": "en",
+        "format": "web"
+      },
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "physical-sciences"
+      ]
+    },
+    {
+      "id": "life-sci-caps-doc",
+      "type": "caps-doc",
+      "title": "Life Sciences CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Life Sciences Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "life-sciences"
+      ]
+    },
+    {
+      "id": "life-sci-siyavula-12",
+      "type": "textbook",
+      "title": "Siyavula Life Sciences Grade 12",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/life-sciences/grade-12",
+      "description": "Free open-textbook for Grade 12 Life Sciences",
+      "metadata": {
+        "language": "en",
+        "format": "web"
+      },
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "life-sciences"
+      ]
+    },
+    {
+      "id": "life-sci-siyavula-11",
+      "type": "textbook",
+      "title": "Siyavula Life Sciences Grade 11",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/life-sciences/grade-11",
+      "description": "Free open-textbook for Grade 11 Life Sciences",
+      "metadata": {
+        "language": "en",
+        "format": "web"
+      },
+      "gradeRelevance": [
+        "11"
+      ],
+      "subjectIds": [
+        "life-sciences"
+      ]
+    },
+    {
+      "id": "life-sci-siyavula-10",
+      "type": "textbook",
+      "title": "Siyavula Life Sciences Grade 10",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/life-sciences/grade-10",
+      "description": "Free open-textbook for Grade 10 Life Sciences",
+      "metadata": {
+        "language": "en",
+        "format": "web"
+      },
+      "gradeRelevance": [
+        "10"
+      ],
+      "subjectIds": [
+        "life-sciences"
+      ]
+    },
+    {
       "id": "life-sci-mtgap-12",
       "type": "study-guide",
       "title": "Mind the Gap Life Sciences",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Life%20Sciences%20Gr%2012%20Web.pdf",
+      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
       "description": "DBE study guide for Grade 12 Life Sciences",
       "metadata": {
         "year": 2023,
         "language": "en",
         "format": "pdf",
-        "fileSize": "9.47 MB"
+        "fileSize": "3.8 MB"
       },
       "gradeRelevance": [
         "12"
@@ -15057,17 +15227,35 @@
       ]
     },
     {
-      "id": "eng-home-mtgap-12",
-      "type": "study-guide",
-      "title": "Mind the Gap English Home Language",
-      "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20English%20HL%20Gr%2012%20Web.pdf",
-      "description": "DBE study guide for Grade 12 English Home Language",
+      "id": "eng-home-caps-doc",
+      "type": "caps-doc",
+      "title": "English Home Language CAPS Document",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for English Home Language",
       "metadata": {
-        "year": 2023,
         "language": "en",
-        "format": "pdf",
-        "fileSize": "11.82 MB"
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "english-home"
+      ]
+    },
+    {
+      "id": "eng-home-siyavula-12",
+      "type": "textbook",
+      "title": "Siyavula English Home Language Grade 12",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/english-home-language/grade-12",
+      "description": "Free open-textbook for Grade 12 English Home Language",
+      "metadata": {
+        "language": "en",
+        "format": "web"
       },
       "gradeRelevance": [
         "12"
@@ -15077,17 +15265,75 @@
       ]
     },
     {
-      "id": "accounting-mtgap-12",
+      "id": "eng-home-mtgap-12",
       "type": "study-guide",
-      "title": "Mind the Gap Accounting",
+      "title": "Mind the Gap English Home Language",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Accounting%20Gr%2012%20Web.pdf",
-      "description": "DBE study guide for Grade 12 Accounting",
+      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
+      "description": "DBE study guide for Grade 12 English Home Language",
       "metadata": {
         "year": 2023,
         "language": "en",
         "format": "pdf",
-        "fileSize": "12.39 MB"
+        "fileSize": "3.5 MB"
+      },
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "english-home"
+      ]
+    },
+    {
+      "id": "eng-fal-caps-doc",
+      "type": "caps-doc",
+      "title": "English FAL CAPS Document",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for English First Additional Language",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "english-fal"
+      ]
+    },
+    {
+      "id": "accounting-caps-doc",
+      "type": "caps-doc",
+      "title": "Accounting CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Accounting Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "accounting"
+      ]
+    },
+    {
+      "id": "accounting-siyavula-12",
+      "type": "textbook",
+      "title": "Siyavula Accounting Grade 12",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/accounting/grade-12",
+      "description": "Free open-textbook for Grade 12 Accounting",
+      "metadata": {
+        "language": "en",
+        "format": "web"
       },
       "gradeRelevance": [
         "12"
@@ -15097,59 +15343,241 @@
       ]
     },
     {
-      "id": "maths-quiz-gizmo",
-      "type": "quiz",
-      "title": "Mathematics Flashcards on Gizmo",
-      "source": "gizmo",
-      "url": "https://gizmo.ai/community/decks/mathematics",
-      "description": "AI-generated flashcards for Grade 12 Mathematics",
-      "metadata": {
-        "language": "en",
-        "format": "web"
-      },
-      "gradeRelevance": [
-        "12"
-      ],
-      "subjectIds": [
-        "mathematics"
-      ]
-    },
-    {
-      "id": "phys-sci-quiz-gizmo",
-      "type": "quiz",
-      "title": "Physical Sciences Flashcards on Gizmo",
-      "source": "gizmo",
-      "url": "https://gizmo.ai/community/decks/physics",
-      "description": "AI-generated flashcards for Grade 12 Physical Sciences",
-      "metadata": {
-        "language": "en",
-        "format": "web"
-      },
-      "gradeRelevance": [
-        "12"
-      ],
-      "subjectIds": [
-        "physical-sciences"
-      ]
-    },
-    {
-      "id": "phys-sci-mtgap-chemistry",
+      "id": "accounting-mtgap-12",
       "type": "study-guide",
-      "title": "Mind the Gap Physical Sciences: Chemistry",
+      "title": "Mind the Gap Accounting",
       "source": "mind-the-gap",
-      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Chemistry%20Gr%2012%20Web.pdf",
-      "description": "DBE Mind the Gap study guide for Grade 12 Physical Sciences (Chemistry)",
+      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
+      "description": "DBE study guide for Grade 12 Accounting",
       "metadata": {
         "year": 2023,
         "language": "en",
         "format": "pdf",
-        "fileSize": "24.45 MB"
+        "fileSize": "4.0 MB"
       },
       "gradeRelevance": [
         "12"
       ],
       "subjectIds": [
-        "physical-sciences"
+        "accounting"
+      ]
+    },
+    {
+      "id": "maths-lit-caps-doc",
+      "type": "caps-doc",
+      "title": "Mathematical Literacy CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Mathematical Literacy Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "maths-lit"
+      ]
+    },
+    {
+      "id": "maths-lit-siyavula-12",
+      "type": "textbook",
+      "title": "Siyavula Mathematical Literacy Grade 12",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/mathematical-literacy/grade-12",
+      "description": "Free open-textbook for Grade 12 Mathematical Literacy",
+      "metadata": {
+        "language": "en",
+        "format": "web"
+      },
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "maths-lit"
+      ]
+    },
+    {
+      "id": "geography-caps-doc",
+      "type": "caps-doc",
+      "title": "Geography CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Geography Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "geography"
+      ]
+    },
+    {
+      "id": "history-caps-doc",
+      "type": "caps-doc",
+      "title": "History CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for History Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "history"
+      ]
+    },
+    {
+      "id": "economics-caps-doc",
+      "type": "caps-doc",
+      "title": "Economics CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Economics Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "economics"
+      ]
+    },
+    {
+      "id": "business-studies-caps-doc",
+      "type": "caps-doc",
+      "title": "Business Studies CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Business Studies Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "business-studies"
+      ]
+    },
+    {
+      "id": "afrikaans-fal-caps-doc",
+      "type": "caps-doc",
+      "title": "Afrikaans FAL CAPS Document",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Afrikaans First Additional Language",
+      "metadata": {
+        "language": "af",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "afrikaans-fal"
+      ]
+    },
+    {
+      "id": "cat-caps-doc",
+      "type": "caps-doc",
+      "title": "CAT CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Computer Applications Technology",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "cat"
+      ]
+    },
+    {
+      "id": "it-caps-doc",
+      "type": "caps-doc",
+      "title": "IT CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Information Technology",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "it"
+      ]
+    },
+    {
+      "id": "tourism-caps-doc",
+      "type": "caps-doc",
+      "title": "Tourism CAPS Document (FET)",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for Tourism Grades 10\u201312",
+      "metadata": {
+        "language": "en",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "tourism"
+      ]
+    },
+    {
+      "id": "isizulu-fal-caps-doc",
+      "type": "caps-doc",
+      "title": "isiZulu FAL CAPS Document",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "description": "The official CAPS curriculum document for isiZulu First Additional Language",
+      "metadata": {
+        "language": "zu",
+        "format": "pdf"
+      },
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "isizulu-fal"
       ]
     }
   ],
