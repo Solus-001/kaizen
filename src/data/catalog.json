@@ -13,7 +13,7 @@
     {
       "id": "mathematics",
       "name": "Mathematics",
-      "icon": "\ud83d\udcd0",
+      "icon": "📐",
       "color": "#3B82F6",
       "categories": [
         "Sciences"
@@ -23,17 +23,17 @@
     {
       "id": "maths-lit",
       "name": "Mathematical Literacy",
-      "icon": "\ud83d\udcca",
+      "icon": "📊",
       "color": "#8B5CF6",
       "categories": [
         "Sciences"
       ],
-      "description": "Practical maths for everyday life \u2014 finance, measurement, data"
+      "description": "Practical maths for everyday life — finance, measurement, data"
     },
     {
       "id": "physical-sciences",
       "name": "Physical Sciences",
-      "icon": "\u269b\ufe0f",
+      "icon": "⚛️",
       "color": "#F97316",
       "categories": [
         "Sciences"
@@ -43,7 +43,7 @@
     {
       "id": "life-sciences",
       "name": "Life Sciences",
-      "icon": "\ud83e\uddec",
+      "icon": "🧬",
       "color": "#16A34A",
       "categories": [
         "Sciences"
@@ -53,7 +53,7 @@
     {
       "id": "english-home",
       "name": "English Home Language",
-      "icon": "\ud83d\udcd6",
+      "icon": "📖",
       "color": "#EC4899",
       "categories": [
         "Languages"
@@ -63,7 +63,7 @@
     {
       "id": "english-fal",
       "name": "English First Additional Language",
-      "icon": "\ud83d\udde3\ufe0f",
+      "icon": "🗣️",
       "color": "#F472B6",
       "categories": [
         "Languages"
@@ -73,7 +73,7 @@
     {
       "id": "afrikaans-fal",
       "name": "Afrikaans First Additional Language",
-      "icon": "\ud83c\uddff\ud83c\udde6",
+      "icon": "🇿🇦",
       "color": "#F59E0B",
       "categories": [
         "Languages"
@@ -83,7 +83,7 @@
     {
       "id": "isizulu-fal",
       "name": "isiZulu First Additional Language",
-      "icon": "\ud83d\udcac",
+      "icon": "💬",
       "color": "#10B981",
       "categories": [
         "Languages"
@@ -93,7 +93,7 @@
     {
       "id": "accounting",
       "name": "Accounting",
-      "icon": "\ud83d\udcb0",
+      "icon": "💰",
       "color": "#6366F1",
       "categories": [
         "Commerce"
@@ -103,7 +103,7 @@
     {
       "id": "business-studies",
       "name": "Business Studies",
-      "icon": "\ud83d\udcc8",
+      "icon": "📈",
       "color": "#0EA5E9",
       "categories": [
         "Commerce"
@@ -113,7 +113,7 @@
     {
       "id": "economics",
       "name": "Economics",
-      "icon": "\ud83d\udcb9",
+      "icon": "💹",
       "color": "#14B8A6",
       "categories": [
         "Commerce"
@@ -123,7 +123,7 @@
     {
       "id": "geography",
       "name": "Geography",
-      "icon": "\ud83c\udf0d",
+      "icon": "🌍",
       "color": "#22C55E",
       "categories": [
         "Humanities"
@@ -133,7 +133,7 @@
     {
       "id": "history",
       "name": "History",
-      "icon": "\ud83d\udcdc",
+      "icon": "📜",
       "color": "#A855F7",
       "categories": [
         "Humanities"
@@ -143,7 +143,7 @@
     {
       "id": "tourism",
       "name": "Tourism",
-      "icon": "\u2708\ufe0f",
+      "icon": "✈️",
       "color": "#06B6D4",
       "categories": [
         "Humanities"
@@ -153,7 +153,7 @@
     {
       "id": "cat",
       "name": "Computer Applications Technology",
-      "icon": "\ud83d\udcbb",
+      "icon": "💻",
       "color": "#2563EB",
       "categories": [
         "Technology"
@@ -163,7 +163,7 @@
     {
       "id": "it",
       "name": "Information Technology",
-      "icon": "\ud83d\udda5\ufe0f",
+      "icon": "🖥️",
       "color": "#7C3AED",
       "categories": [
         "Technology"
@@ -190,7 +190,7 @@
     {
       "id": "12",
       "label": "Grade 12",
-      "subtitle": "Matric year \u2014 you've got this \ud83c\udf93"
+      "subtitle": "Matric year — you've got this 🎓"
     }
   ],
   "years": [
@@ -338,7 +338,7 @@
       "sourceUrl": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx",
       "sourceName": "Department of Education",
       "fileType": "pdf",
-      "duration": "2\u00bd hours",
+      "duration": "2½ hours",
       "marks": 80,
       "tags": [
         "literature",
@@ -358,7 +358,7 @@
       "sourceUrl": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx",
       "sourceName": "Department of Education",
       "fileType": "pdf",
-      "duration": "2\u00bd hours",
+      "duration": "2½ hours",
       "marks": 150,
       "tags": [
         "genetics",
@@ -477,7 +477,7 @@
       "sourceUrl": "https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx",
       "sourceName": "Department of Education",
       "fileType": "pdf",
-      "duration": "2\u00bd hours",
+      "duration": "2½ hours",
       "marks": 150,
       "tags": [
         "microeconomics",
@@ -17718,6 +17718,274 @@
       "duration": "3 hours",
       "marks": 150,
       "tags": []
+    },
+    {
+      "id": "history-12-nov-2024-eng-p1",
+      "subjectId": "history",
+      "grade": 12,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 1,
+      "title": "History P1",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "history-12-nov-2024-eng-p2",
+      "subjectId": "history",
+      "grade": 12,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 2,
+      "title": "History P2",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "history-11-nov-2024-eng-p1",
+      "subjectId": "history",
+      "grade": 11,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 1,
+      "title": "History P1",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "history-11-nov-2024-eng-p2",
+      "subjectId": "history",
+      "grade": 11,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 2,
+      "title": "History P2",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "history-10-nov-2024-eng-p1",
+      "subjectId": "history",
+      "grade": 10,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 1,
+      "title": "History P1",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "history-10-nov-2024-eng-p2",
+      "subjectId": "history",
+      "grade": 10,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 2,
+      "title": "History P2",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "life-sciences-12-nov-2024-p2",
+      "subjectId": "life-sciences",
+      "grade": 12,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 2,
+      "title": "Life Sciences P2",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [
+        "human-body"
+      ],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "life-sciences-11-nov-2024-p1",
+      "subjectId": "life-sciences",
+      "grade": 11,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 1,
+      "title": "Life Sciences P1",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "2½ hours",
+      "marks": 150,
+      "tags": [
+        "genetics",
+        "evolution"
+      ],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "life-sciences-11-nov-2024-p2",
+      "subjectId": "life-sciences",
+      "grade": 11,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 2,
+      "title": "Life Sciences P2",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [
+        "human-giology"
+      ],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "life-sciences-10-nov-2024-p1",
+      "subjectId": "life-sciences",
+      "grade": 10,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 1,
+      "title": "Life Sciences P1",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "2 hours",
+      "marks": 150,
+      "tags": [
+        "biology"
+      ],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "life-sciences-10-nov-2024-p2",
+      "subjectId": "life-sciences",
+      "grade": 10,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 2,
+      "title": "Life Sciences P2",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "cat-12-nov-2023-p1",
+      "subjectId": "cat",
+      "grade": 12,
+      "year": 2023,
+      "examType": "November",
+      "paperNumber": 1,
+      "title": "CAT P1",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [
+        "html",
+        "databases"
+      ],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "cat-11-nov-2024-p1",
+      "subjectId": "cat",
+      "grade": 11,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 1,
+      "title": "CAT P1",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "cat-11-nov-2024-p2",
+      "subjectId": "cat",
+      "grade": 11,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 2,
+      "title": "CAT P2",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "cat-10-nov-2024-p1",
+      "subjectId": "cat",
+      "grade": 10,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 1,
+      "title": "CAT P1",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
+    },
+    {
+      "id": "cat-10-nov-2024-p2",
+      "subjectId": "cat",
+      "grade": 10,
+      "year": 2024,
+      "examType": "November",
+      "paperNumber": 2,
+      "title": "CAT P2",
+      "curriculum": "CAPS",
+      "sourceName": "Department of Education",
+      "fileType": "pdf",
+      "duration": "3 hours",
+      "marks": 150,
+      "tags": [],
+      "sourceUrl": "https://www.education.gov.za"
     }
   ],
   "resources": [
@@ -17727,7 +17995,7 @@
       "title": "Mathematics CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Mathematics Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Mathematics Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -17801,7 +18069,7 @@
       "title": "Mind the Gap Mathematics",
       "source": "mind-the-gap",
       "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx",
-      "description": "DBE study guide for Grade 12 Mathematics \u2014 exam preparation",
+      "description": "DBE study guide for Grade 12 Mathematics — exam preparation",
       "metadata": {
         "year": 2023,
         "language": "en",
@@ -17818,7 +18086,7 @@
     {
       "id": "math-video-quadratics",
       "type": "video",
-      "title": "Quadratic Functions \u2014 Grade 12 Maths",
+      "title": "Quadratic Functions — Grade 12 Maths",
       "source": "youtube",
       "url": "https://www.youtube.com/watch?v=KzWhzVBsOBw",
       "description": "Comprehensive tutorial on quadratic functions for Grade 12",
@@ -17838,7 +18106,7 @@
     {
       "id": "math-video-trig",
       "type": "video",
-      "title": "Trigonometry \u2014 Grade 11 Revision",
+      "title": "Trigonometry — Grade 11 Revision",
       "source": "youtube",
       "url": "https://www.youtube.com/watch?v=PUB0TaZ7bhA",
       "description": "Grade 11 trigonometry revision covering identities and equations",
@@ -17879,7 +18147,7 @@
       "title": "Physical Sciences CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Physical Sciences Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Physical Sciences Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -17952,7 +18220,7 @@
       "title": "Mind the Gap Physics Grade 12",
       "source": "mind-the-gap",
       "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Physics%20Gr%2012%20Web.pdf?ver=2015-02-25-204844-000",
-      "description": "DBE study guide for Grade 12 Physical Sciences \u2014 Physics section",
+      "description": "DBE study guide for Grade 12 Physical Sciences — Physics section",
       "metadata": {
         "year": 2023,
         "language": "en",
@@ -17972,7 +18240,7 @@
       "title": "Mind the Gap Chemistry Grade 12",
       "source": "mind-the-gap",
       "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20Chemistry%20Gr%2012%20Web.pdf?ver=2015-02-25-205604-000",
-      "description": "DBE study guide for Grade 12 Physical Sciences \u2014 Chemistry section",
+      "description": "DBE study guide for Grade 12 Physical Sciences — Chemistry section",
       "metadata": {
         "year": 2023,
         "language": "en",
@@ -17989,7 +18257,7 @@
     {
       "id": "phys-sci-video-newton",
       "type": "video",
-      "title": "Newton's Laws of Motion \u2014 Grade 12",
+      "title": "Newton's Laws of Motion — Grade 12",
       "source": "youtube",
       "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
       "description": "Complete revision of Newton's three laws with examples",
@@ -18030,7 +18298,7 @@
       "title": "Life Sciences CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Life Sciences Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Life Sciences Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -18121,7 +18389,7 @@
     {
       "id": "life-sci-video-genetics",
       "type": "video",
-      "title": "Genetics \u2014 Grade 12 Life Sciences",
+      "title": "Genetics — Grade 12 Life Sciences",
       "source": "youtube",
       "url": "https://www.youtube.com/watch?v=1aHgM4VpNcI",
       "description": "Mendelian genetics, DNA replication, and inheritance patterns",
@@ -18222,7 +18490,7 @@
       "title": "Accounting CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Accounting Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Accounting Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -18280,7 +18548,7 @@
       "title": "Mathematical Literacy CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Mathematical Literacy Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Mathematical Literacy Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -18318,7 +18586,7 @@
       "title": "Geography CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Geography Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Geography Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -18338,7 +18606,7 @@
       "title": "History CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for History Grades 10\u201312",
+      "description": "The official CAPS curriculum document for History Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -18358,7 +18626,7 @@
       "title": "Economics CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Economics Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Economics Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -18378,7 +18646,7 @@
       "title": "Business Studies CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Business Studies Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Business Studies Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -18458,7 +18726,7 @@
       "title": "Tourism CAPS Document (FET)",
       "source": "dbe",
       "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
-      "description": "The official CAPS curriculum document for Tourism Grades 10\u201312",
+      "description": "The official CAPS curriculum document for Tourism Grades 10–12",
       "metadata": {
         "language": "en",
         "format": "pdf"
@@ -18490,6 +18758,166 @@
       ],
       "subjectIds": [
         "isizulu-fal"
+      ]
+    },
+    {
+      "id": "history-siyavula-12",
+      "type": "textbook",
+      "title": "Siyavula History Grade 12",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/history/grade-12",
+      "description": "Free South African CAPS-aligned History Grade 12 textbook",
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "history"
+      ]
+    },
+    {
+      "id": "history-siyavula-11",
+      "type": "textbook",
+      "title": "Siyavula History Grade 11",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/history/grade-11",
+      "description": "Free South African CAPS-aligned History Grade 11 textbook",
+      "gradeRelevance": [
+        "11"
+      ],
+      "subjectIds": [
+        "history"
+      ]
+    },
+    {
+      "id": "history-siyavula-10",
+      "type": "textbook",
+      "title": "Siyavula History Grade 10",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/history/grade-10",
+      "description": "Free South African CAPS-aligned History Grade 10 textbook",
+      "gradeRelevance": [
+        "10"
+      ],
+      "subjectIds": [
+        "history"
+      ]
+    },
+    {
+      "id": "history-mind-gap-12",
+      "type": "study-guide",
+      "title": "Mind the Gap: History Grade 12",
+      "source": "mind-the-gap",
+      "url": "https://www.education.gov.za/SelfStudyGuidesGrade10-12.aspx",
+      "description": "DBE study guide with revision booklets for History Grade 12 Paper 1 and Paper 2",
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "history"
+      ]
+    },
+    {
+      "id": "history-self-study-10-12",
+      "type": "study-guide",
+      "title": "DBE Self Study Guides: History Grade 10-12",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/SelfStudyGuidesGrade10-12.aspx",
+      "description": "History topic-focused revision booklets for Grades 10-12",
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "history"
+      ]
+    },
+    {
+      "id": "cat-siyavula-12",
+      "type": "textbook",
+      "title": "Siyavula Computer Applications Technology Grade 12",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/computer-applications-technology/grade-12",
+      "description": "Free CAT Grade 12 textbook with theory and practical chapters",
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "cat"
+      ]
+    },
+    {
+      "id": "cat-siyavula-11",
+      "type": "textbook",
+      "title": "Siyavula Computer Applications Technology Grade 11",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/computer-applications-technology/grade-11",
+      "description": "Free CAT Grade 11 textbook with theory and practical chapters",
+      "gradeRelevance": [
+        "11"
+      ],
+      "subjectIds": [
+        "cat"
+      ]
+    },
+    {
+      "id": "cat-siyavula-10",
+      "type": "textbook",
+      "title": "Siyavula Computer Applications Technology Grade 10",
+      "source": "siyavula",
+      "url": "https://www.siyavula.com/read/za/computer-applications-technology/grade-10",
+      "description": "Free CAT Grade 10 textbook with theory and practical chapters",
+      "gradeRelevance": [
+        "10"
+      ],
+      "subjectIds": [
+        "cat"
+      ]
+    },
+    {
+      "id": "cat-self-study-10-12",
+      "type": "study-guide",
+      "title": "DBE CAT Self Study Guides",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/SelfStudyGuidesGrade10-12.aspx",
+      "description": "DBE self study guides for Computer Applications Technology Grades 10-12",
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "cat"
+      ]
+    },
+    {
+      "id": "life-sci-mind-gap-12",
+      "type": "study-guide",
+      "title": "Mind the Gap: Life Sciences Grade 12",
+      "source": "mind-the-gap",
+      "url": "https://www.education.gov.za/SelfStudyGuidesGrade10-12.aspx",
+      "description": "DBE self-study guide for Life Sciences Grade 12",
+      "gradeRelevance": [
+        "12"
+      ],
+      "subjectIds": [
+        "life-sciences"
+      ]
+    },
+    {
+      "id": "life-sci-self-study-10-12",
+      "type": "study-guide",
+      "title": "DBE Self Study Guides: Life Sciences",
+      "source": "dbe",
+      "url": "https://www.education.gov.za/SelfStudyGuidesGrade10-12.aspx",
+      "description": "Life Sciences topic-focused self-study guides (DNA, genetics, evolution...)",
+      "gradeRelevance": [
+        "10",
+        "11",
+        "12"
+      ],
+      "subjectIds": [
+        "life-sciences"
       ]
     }
   ],
